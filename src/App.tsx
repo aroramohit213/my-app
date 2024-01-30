@@ -1,10 +1,22 @@
-import React from 'react';
+import React from "react";
+import { CustomDropdown } from "./CustomDropdown";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-    </div>
+    <React.Fragment>
+      <div
+        style={{
+          display: "flex",
+          height: "100vh",
+          width: "100vw",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <CustomDropdown />
+      </div>
+    </React.Fragment>
   );
-}
+};
 
 export default App;
